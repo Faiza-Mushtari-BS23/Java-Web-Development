@@ -14,6 +14,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'org.hibernate:hibernate-core:5.1.0.Final'
     implementation 'com.h2database:h2:1.4.191'
+    implementation 'javax.transaction:jta:1.1'
 }
 
 test {

@@ -8,9 +8,15 @@
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
 
         <!-- Update the database schema on startup -->
-        <property name="hbm2ddl.auto">create</property>
+        <!--<property name="hbm2ddl.auto">create</property>-->
 
-        <!-- Names of the annotated entity classes -->
-        <mapping class="com.teamtreehouse.contactmgr.model.Contact"/>
+        <!-- Update the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- Show the queries prepared by Hibernate -->
+        <property name="show_sql">true</property>
+
+        <!-- Names the annotated entity classes -->
+        <mapping class="com.teamtreehouse.contactmgr.model.Contact" />
     </session-factory>
 </hibernate-configuration>
