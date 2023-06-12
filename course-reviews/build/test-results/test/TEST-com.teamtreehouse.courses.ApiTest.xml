@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.teamtreehouse.courses.ApiTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-06-06T08:58:09" hostname="BS1090" time="0.27">
+  <properties/>
+  <testcase name="addingReviewToUnknownCourseThrowsError" classname="com.teamtreehouse.courses.ApiTest" time="0.218"/>
+  <testcase name="addingCoursesReturnsCreatedStatus" classname="com.teamtreehouse.courses.ApiTest" time="0.013"/>
+  <testcase name="multipleReviewsReturnedForCourse" classname="com.teamtreehouse.courses.ApiTest" time="0.018"/>
+  <testcase name="addingReviewGivesCreatedStatus" classname="com.teamtreehouse.courses.ApiTest" time="0.005"/>
+  <testcase name="coursesCanBeAccessedById" classname="com.teamtreehouse.courses.ApiTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @574ms
+[Thread-4] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-4] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4568
+[Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@fa27f3{HTTP/1.1,[http/1.1]}{0.0.0.0:4568}
+[Thread-4] INFO org.eclipse.jetty.server.Server - Started @634ms
+[Test worker] INFO spark.webserver.JettySparkServer - >>> Spark shutting down ...
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@fa27f3{HTTP/1.1,[http/1.1]}{0.0.0.0:4568}
+[Test worker] INFO spark.webserver.JettySparkServer - done
+]]></system-err>
+</testsuite>

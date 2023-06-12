@@ -1,0 +1,19 @@
+group 'com.teamtreehouse.courses'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.sql2o:sql2o:1.5.4'
+    implementation 'com.h2database:h2:1.4.191'
+    testImplementation group: 'junit', name: 'junit', version: '4.11'
+    implementation 'com.google.code.gson:gson:2.5'
+    implementation 'com.sparkjava:spark-core:2.3'
+
+}

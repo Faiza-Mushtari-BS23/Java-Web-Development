@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.teamtreehouse.courses.dao.Sql2oReviewDaoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-06T08:58:10" hostname="BS1090" time="0.012">
+  <properties/>
+  <testcase name="addingAReviewToANonExistingCourseFails" classname="com.teamtreehouse.courses.dao.Sql2oReviewDaoTest" time="0.004"/>
+  <testcase name="addingReviewSetsNewId" classname="com.teamtreehouse.courses.dao.Sql2oReviewDaoTest" time="0.003"/>
+  <testcase name="multipleReviewsAreFoundWhenTheyExistForACourse" classname="com.teamtreehouse.courses.dao.Sql2oReviewDaoTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
